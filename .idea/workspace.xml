@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d23b0c-3d15-410d-ba84-a2e5a5475eaf" name="Changes" comment="리드미 목차 추가" />
+    <list default="true" id="98d23b0c-3d15-410d-ba84-a2e5a5475eaf" name="Changes" comment="레포지토리 방향 설정">
+      <change afterPath="$PROJECT_DIR$/NodeJS-초격차/Part4-NodeJS-로-웹-개발-하기/Ch1-웹-서버-만들기.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +19,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ZqB8AhRgxv8O18Y196ffOGPqT0" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -36,7 +39,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/nyungnim/Documents/BookStudy-Note",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   },
   "keyToStringList": {
     "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
@@ -45,6 +48,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NodeJS-초격차/Part4-NodeJS-로-웹-개발-하기" />
       <recent name="$PROJECT_DIR$/혼자공부하는C언어" />
       <recent name="$PROJECT_DIR$/혼자공부하는C언어/Ch2" />
     </key>
@@ -64,6 +68,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="리드미 목차 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="리드미 목차 추가" />
+    <MESSAGE value="레포지토리 방향 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="레포지토리 방향 설정" />
   </component>
 </project>
