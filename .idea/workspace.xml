@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d23b0c-3d15-410d-ba84-a2e5a5475eaf" name="Changes" comment="레포지토리 방향 설정">
+    <list default="true" id="98d23b0c-3d15-410d-ba84-a2e5a5475eaf" name="Changes" comment="Node.js 초격차 강의 정리 폴더 추가 + Part4-CH1 내용정리">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/NodeJS-초격차/Part4-NodeJS-로-웹-개발-하기/Ch1-웹-서버-만들기.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -69,6 +70,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="리드미 목차 추가" />
     <MESSAGE value="레포지토리 방향 설정" />
-    <option name="LAST_COMMIT_MESSAGE" value="레포지토리 방향 설정" />
+    <MESSAGE value="Node.js 초격차 강의 정리 폴더 추가 + Part4-CH1 내용정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="Node.js 초격차 강의 정리 폴더 추가 + Part4-CH1 내용정리" />
   </component>
 </project>

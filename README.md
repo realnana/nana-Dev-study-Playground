@@ -1,2 +1,6 @@
-# CS-Study-Note
-> 책이나 강의를 보면서 컴퓨터 과학을 공부한 내용을 정리하였음
+# BackEnd-Lecture-Note
+> 백엔드 강의 내용을 정리한 레포
+
+### LIST
+
+1. FastCampus - Node.js 초격차 10개 프로젝트
