@@ -1,1 +1,2 @@
-# lecture-note
+# CS-Note
+> 컴퓨터과학을 공부한 내용 정리
