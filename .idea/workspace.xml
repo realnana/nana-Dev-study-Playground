@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d23b0c-3d15-410d-ba84-a2e5a5475eaf" name="Changes" comment="Node.js 초격차 강의 정리 폴더 추가 + Part4-CH1 내용정리">
-      <change afterPath="$PROJECT_DIR$/NodeJS-초격차/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/김영한-Java/입문/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="98d23b0c-3d15-410d-ba84-a2e5a5475eaf" name="Changes" comment="수강 중인 강의 + 수강 할 강의 리드미 정리 + 새로운 디렉토리 생성, 파일정리 완료">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +65,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705136997833</updated>
-      <workItem from="1705136999130" duration="430000" />
+      <workItem from="1705136999130" duration="2786000" />
     </task>
+    <task id="LOCAL-00001" summary="수강 중인 강의 + 수강 할 강의 리드미 정리 + 새로운 디렉토리 생성, 파일정리 완료">
+      <created>1705137557705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705137557705</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +96,7 @@
     <MESSAGE value="리드미 목차 추가" />
     <MESSAGE value="레포지토리 방향 설정" />
     <MESSAGE value="Node.js 초격차 강의 정리 폴더 추가 + Part4-CH1 내용정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="Node.js 초격차 강의 정리 폴더 추가 + Part4-CH1 내용정리" />
+    <MESSAGE value="수강 중인 강의 + 수강 할 강의 리드미 정리 + 새로운 디렉토리 생성, 파일정리 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="수강 중인 강의 + 수강 할 강의 리드미 정리 + 새로운 디렉토리 생성, 파일정리 완료" />
   </component>
 </project>
