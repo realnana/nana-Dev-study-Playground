@@ -1,6 +1,11 @@
 import { Document } from 'mongoose';
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 
+interface ExtraData {
+    country: string;
+    name: string;
+    guildName: string;
+}
 
 export class LeaderboardUserList extends Document {
     @Prop()
@@ -12,14 +17,8 @@ export class LeaderboardUserList extends Document {
     @Prop()
     uploadTime: string;
 
-    @Prop()
-    country: string;
-
-    @Prop()
-    name: string;
-
-    @Prop()
-    guildName: string;
+    @Prop({ type: Object })
+    extraData: ExtraData;
 }
 
 export const LeaderBoardUserListSchema = SchemaFactory.createForClass(LeaderboardUserList);
