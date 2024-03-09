@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { validation } from './utils';
+import { CrudModule } from './crud/crud.module';
 
 @Module({
   imports: [
@@ -13,7 +14,8 @@ import { validation } from './utils';
         : '.env',
       isGlobal: true,
       validationSchema: validation
-    })
+    }),
+    CrudModule
   ]
 })
 export class AppModule {}
