@@ -16,6 +16,7 @@ export class LeaderboardController {
     @Param('name') name: string,
     @Param('guildName') guildName: string,
   ): Promise<LeaderboardUserList> {
+    // object -> string으로 바꾸기
     const extraData = { country, name, guildName };
     return await this.leaderboardService.uploadScore(uid, score, uploadTime, extraData);
   }

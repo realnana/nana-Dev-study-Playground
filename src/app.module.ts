@@ -4,7 +4,7 @@ import * as mongoose from 'mongoose';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://nyu0kim:nana00@leaderboard-demo.9d4tlwx.mongodb.net/'),
+    MongooseModule.forRoot('mongodb+srv://nyu0kim:nana00@cluster0.uycb0xp.mongodb.net/'),
   ],
 })
 export class AppModule implements NestModule {
