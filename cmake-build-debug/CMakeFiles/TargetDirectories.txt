@@ -1,0 +1,3 @@
+/Users/nyungnim/Documents/adv-c/cmake-build-debug/CMakeFiles/Adv_C.dir
+/Users/nyungnim/Documents/adv-c/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/nyungnim/Documents/adv-c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
