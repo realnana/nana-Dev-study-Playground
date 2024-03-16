@@ -8,4 +8,5 @@ include_directories(BOJ/CPP)
 add_executable(Adv_C
         BOJ/Clang/src/2845.c
         BOJ/CPP/sol20492.cpp
-        BOJ/CPP/sol20492.h)
+        BOJ/CPP/sol20492.h
+        BOJ/Clang/src/5532.c)

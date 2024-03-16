@@ -63,6 +63,13 @@ build CMakeFiles/Adv_C.dir/BOJ/CPP/sol20492.cpp.o: CXX_COMPILER__Adv_C_unscanned
   OBJECT_DIR = CMakeFiles/Adv_C.dir
   OBJECT_FILE_DIR = CMakeFiles/Adv_C.dir/BOJ/CPP
 
+build CMakeFiles/Adv_C.dir/BOJ/Clang/src/5532.c.o: C_COMPILER__Adv_C_unscanned_Debug /Users/nyungnim/Documents/adv-c/BOJ/Clang/src/5532.c || cmake_object_order_depends_target_Adv_C
+  DEP_FILE = CMakeFiles/Adv_C.dir/BOJ/Clang/src/5532.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/nyungnim/Documents/adv-c/BOJ/CPP
+  OBJECT_DIR = CMakeFiles/Adv_C.dir
+  OBJECT_FILE_DIR = CMakeFiles/Adv_C.dir/BOJ/Clang/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Adv_C
@@ -71,7 +78,7 @@ build CMakeFiles/Adv_C.dir/BOJ/CPP/sol20492.cpp.o: CXX_COMPILER__Adv_C_unscanned
 #############################################
 # Link the executable Adv_C
 
-build Adv_C: CXX_EXECUTABLE_LINKER__Adv_C_Debug CMakeFiles/Adv_C.dir/BOJ/Clang/src/2845.c.o CMakeFiles/Adv_C.dir/BOJ/CPP/sol20492.cpp.o
+build Adv_C: CXX_EXECUTABLE_LINKER__Adv_C_Debug CMakeFiles/Adv_C.dir/BOJ/Clang/src/2845.c.o CMakeFiles/Adv_C.dir/BOJ/CPP/sol20492.cpp.o CMakeFiles/Adv_C.dir/BOJ/Clang/src/5532.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/Adv_C.dir
   POST_BUILD = :
