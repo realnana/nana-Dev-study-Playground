@@ -1,5 +1,13 @@
-# NestJS Study
+# NestJS-PostgreSQL-Study
+> 원활한 사이드 프로젝트 진행을 위한 NestJS & PostgreSQL & TypeORM 공부
 
-GDSC PKNU 4기 NestJS 스터디 "NestJS 암살단"
 
-## Project 1 : fetch-JSON
+## HandBook
+> TypeScript 핸드북 예시 코드 정리
+
+## nest-atoz
+> NestJS 내부 동작 원리 파악을 위한 API
+
+
+## Mini Project : API
+> 
