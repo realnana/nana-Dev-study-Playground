@@ -1,0 +1,24 @@
+<3/27 - 3/28일까지의 백엔드 진행상황>
+1. 네이버 클라우드 Classic 플랫폼에서 배포하기로 결정한 이후, 데모용 서버를 만들어서 배포해보자고 결정
+2. 우분투 인스턴스가 준비될 동안 데모용 api를 개발 but postgre가 classic에서 쓸 수 없음
+2. 대체제로 RDB인 MySQL을 결정 후 다시 개발에 들어감
+3. MySQL + NestJS + TypeORM CRUD API를 목표로 개발
+(추후 템플릿으로도 쓸 수 있고 Classic 플랫폼에 서버를 띄워 CRUD 기능 테스트 용으로 쓰는 목적.
+TypeORM과 Nest는 고정이고 나중에 Postgre로 변경되어도 갈아끼우면 됨)
+4. MySQL 도커 컨테이너 만들기 완료
+5. MySQL 연동 문제 + CRUD의 기능 부실(?)(템플릿 목적에 부적합)이라 생각 되어 기능 추가해서 다시 개발
+6. product 정보 CRUD 기능 구현 완료 + 프로젝트 가이드 작성 완료 + Swagger(API문서 자동화 도구) 코드 구현 완료
+
++) Swagger란 - API를 테스트할 수 있는 웹 UI를 제공함(postman 웹 버전 느낌)
+
+<28일 오전부터 진행할 것>
+- MySQL 연동 해결 + RDB용 더미 만들어서 Postman이든 swagger이든 CRUD 테스트 해서 캡쳐해서 업로드
+- 도커 이미지 파일 작성(선 컨테이너 제작 후 작성 어떻게 ?? 아니면 엎고 다시 만들던가) - 네이버 클라우드 배포용으로
+
+
+
+데모용
+- mysql + nest + typeorm + dummy data -> postman 테스트 -> docker -> naver cloud classic
+
+vpc용
+- postgre + nest + typeorm + JSON파일형태db -> postman 테스트 -> docker -> naver cloud VPC
