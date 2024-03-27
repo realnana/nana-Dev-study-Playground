@@ -2,7 +2,7 @@
 > TS handbook &NestJS 내부동작 API + 중고차 견적 API
 - TypeScript
 - NodeJS: NestJS
-- TypeORM + SQLite
+- TypeORM + SQLite 로 먼저 초기 작업 후 TypeORM + PostgreSQL로 최종 변경
 - jest
 - Heroku
 
