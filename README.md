@@ -35,3 +35,40 @@ cd testcrud
 $ npm run start
 ```
 
+### Project Tree
+
+
+```
+testAPI
+├─ .DS_Store
+├─ README.md
+├─ docker-compose.yml
+├─ dummy.json
+├─ index
+└─ testcrud
+   ├─ .DS_Store
+   ├─ .eslintrc.js
+   ├─ .prettierrc
+   ├─ README.md
+   ├─ nest-cli.json
+   ├─ package-lock.json
+   ├─ package.json
+   ├─ src
+   │  ├─ crud
+   │  │  ├─ crud.controller.spec.ts
+   │  │  ├─ crud.controller.ts
+   │  │  ├─ crud.module.ts
+   │  │  ├─ crud.service.spec.ts
+   │  │  └─ crud.service.ts
+   │  └─ main.ts
+   ├─ tsconfig.build.json
+   └─ tsconfig.json
+
+```
+
+
+```
+
+## License
+
+Nest is [MIT licensed](LICENSE).
