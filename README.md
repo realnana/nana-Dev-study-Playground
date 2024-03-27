@@ -11,12 +11,27 @@
 > MySQL + TypeORM + NestJS
 - Classic 플랫폼에서 데모버전으로 사용할 API
 
-### Install
+## 시작 가이드
+---
+
+### Requirements
+- Node.js v21.7.1
+- Npm v10.5.0
+- NestJS v10.3.2
+
+<br>
+
+### Installation
 ```
-$ npm install -g @nestjs/cli
+$ git clone https://github.com/Nyu0Kim/testAPI.git
+```
+```
+cd testcrud
 ```
 
+### Run
+
 ```
-$ npm run start:dev
+$ npm run start
 ```
 
