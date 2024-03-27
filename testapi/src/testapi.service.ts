@@ -8,16 +8,16 @@ import { TestapiDto } from './dto/testapi.dto';
 export class TestapiService {
     constructor(
         @InjectRepository(Testapi)
-        private readonly testDBRepository: Repository<Testapi>,
+        private readonly testapiRepository: Repository<Testapi>,
     ) {}
 
     async findAll(): Promise<Testapi[]> {
-        return this.testDBRepository.find();
+        return this.testapiRepository.find();
     }
 
-    async create(testDBDto: TestapiDto): Promise<Testapi> {
-        const testDB = this.testDBRepository.create(testDBDto);
-        return this.testDBRepository.save(testDB);
+    async create(TestapiDto: TestapiDto): Promise<Testapi> {
+        const testapi = this.testapiRepository.create(TestapiDto);
+        return this.testapiRepository.save(testapi);
     }
 }
 
