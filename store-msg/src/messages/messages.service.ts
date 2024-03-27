@@ -9,7 +9,7 @@ export class MessagesService {
         this.messagesRepo = new MessagesRepository();
     }
 
-    async fineOne(id: string) {
+    async findOne(id: string) {
         return this.messagesRepo.findOne(id);
     }
 
