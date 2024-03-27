@@ -3,6 +3,7 @@ import { CrudService } from './crud.service';
 import { CrudController } from './crud.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule, ConfigService } from '@nestjs/config';
+import { Crud } from './crud.entity';
 
 @Module({
   imports: [
@@ -18,7 +19,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
         username: configService.get('DB_USERNAME'),
         password: configService.get('DB_PASSWORD'),
         database: configService.get('DB_NAME'),
-        entities: [],
+        entities: [Crud],
         synchronize: true,
       }),
       inject: [ConfigService],
