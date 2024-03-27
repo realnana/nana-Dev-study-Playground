@@ -1,19 +1,29 @@
 import { NestFactory } from '@nestjs/core';
-import { CrudModule } from './crud/crud.module';
-import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
+import { AppModule } from './app.module';
+import helmet from 'helmet';
+import { ValidationPipe } from '@nestjs/common';
+import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 
 async function bootstrap() {
-  const app = await NestFactory.create(CrudModule);
+  const app = await NestFactory.create(AppModule);
 
+  // security middlewares
+  app.enableCors();
+  app.use(helmet());
+
+  // Validation
+  app.useGlobalPipes(new ValidationPipe({ disableErrorMessages: false}));
+
+  // OpenAPI Specification
   const config = new DocumentBuilder()
     .setTitle('API 문서')
-    .setDescription('CRUD 테스트를 위한 API 문서 입니다.')
+    .setDescription('For Test')
     .setVersion('1.0')
+    .addTag('products')
     .build();
-  
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);
-  
-  await app.listen(3000);
+
+  await app.listen(process.env.API_PORT || 5000);
 }
 bootstrap();
