@@ -1,0 +1,24 @@
+지금 된 것
+- CRUD API 설계 M
+- TypeORM 모듈 코드, Postgre Entity 코드 M
+- DB 도커 이미지 파일
+- 더미 JSON
+
+해야될 거
+- 로컬에 있는 MySQL을 Typeorm - nest 연동
+- dummy를 db 넣기
+- postman 해보기
+- db, Nest 도커 이미지화
+
+백엔드
+
+-----
+
+클라우드 classic
+
+된거
+- 우분투 인스턴스 생성
+
+해야될 거
+- 도커 이미지 네이버 클라우드로???
+
