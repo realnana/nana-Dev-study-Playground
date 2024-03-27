@@ -1,8 +1,8 @@
 # NestJS-TypeORM-API
-> 사이드 플젝 공부용 TS handbook &NestJS 내부동작 API + 중고차 견적 API
+> TS handbook &NestJS 내부동작 API + 중고차 견적 API
 - TypeScript
 - NodeJS: NestJS
-- TypeORM + PostgreSQL
+- TypeORM + SQLite
 - jest
 - Heroku
 
@@ -20,3 +20,6 @@
 
 ## usedCar-est
 > 중고차 견적 API
+- 유저 회원가입 : 이메일 & 패스워드
+- 사용자 가치 추정 기준 : 제조사, 모델, 연식, 마일리지
+- 사용자 차량 판매 보고 기능 -> 관리자는 보고된 판매를 승인해야함
