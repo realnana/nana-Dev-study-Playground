@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d23b0c-3d15-410d-ba84-a2e5a5475eaf" name="Changes" comment="수강 중인 강의 + 수강 할 강의 리드미 정리 + 새로운 디렉토리 생성, 파일정리 완료">
+    <list default="true" id="98d23b0c-3d15-410d-ba84-a2e5a5475eaf" name="Changes" comment="자바 구현 연습용 레포지토리 변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="3b66f400-9df4-419d-accf-575352adce81" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,27 +32,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/nyungnim/Documents/BackEnd-Lecture-Note",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nyungnim/Documents/java-implement&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
+  &quot;keyToStringList&quot;: {
+    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: [
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/NodeJS-초격차/Part4-NodeJS-로-웹-개발-하기" />
@@ -66,6 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1705136997833</updated>
       <workItem from="1705136999130" duration="2786000" />
+      <workItem from="1713707873029" duration="880000" />
+      <workItem from="1713717980913" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="수강 중인 강의 + 수강 할 강의 리드미 정리 + 새로운 디렉토리 생성, 파일정리 완료">
       <created>1705137557705</created>
@@ -74,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705137557705</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="자바 구현 연습용 레포지토리 변경">
+      <created>1713708773917</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713708773917</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +109,7 @@
     <MESSAGE value="레포지토리 방향 설정" />
     <MESSAGE value="Node.js 초격차 강의 정리 폴더 추가 + Part4-CH1 내용정리" />
     <MESSAGE value="수강 중인 강의 + 수강 할 강의 리드미 정리 + 새로운 디렉토리 생성, 파일정리 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="수강 중인 강의 + 수강 할 강의 리드미 정리 + 새로운 디렉토리 생성, 파일정리 완료" />
+    <MESSAGE value="자바 구현 연습용 레포지토리 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바 구현 연습용 레포지토리 변경" />
   </component>
 </project>
