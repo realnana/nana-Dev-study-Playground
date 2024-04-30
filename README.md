@@ -1,5 +1,2 @@
-# zoom_clone_websocket
-
-for study web socket
-
-// 프로젝트 리드미 형식으로 작성해볼 것
+# Real-Time-Chat-Room
+> 노마드코더 zoom 클론 코딩 강의를 기반으로 만든 익명 실시간 채팅방
