@@ -9,6 +9,7 @@ int main() {
 
     // 코드 내용
 
+
     fclose(stdin);
     fclose(stdout);
 
