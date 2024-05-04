@@ -1,5 +1,6 @@
-package com.myboard.springboard;
+package com.myboard.springboard.question;
 
+import com.myboard.springboard.question.Question;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

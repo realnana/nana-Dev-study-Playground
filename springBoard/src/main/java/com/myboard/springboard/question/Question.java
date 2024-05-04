@@ -1,8 +1,9 @@
-package com.myboard.springboard;
+package com.myboard.springboard.question;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
+import com.myboard.springboard.answer.Answer;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

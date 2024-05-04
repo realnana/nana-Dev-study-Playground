@@ -1,6 +1,8 @@
-package com.myboard.springboard;
+package com.myboard.springboard.answer;
 
 import java.time.LocalDateTime;
+
+import com.myboard.springboard.question.Question;
 import jakarta.persistence.*;
 
 import lombok.Getter;
