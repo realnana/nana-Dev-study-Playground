@@ -1,0 +1,11 @@
+// 문제 5 : for문 계산
+
+let a = 10;
+let b = 2;
+
+for(let i = 1; i<5; i+=2) {
+    a += i;
+    console.log(a);
+}
+
+console.log(a+b);
