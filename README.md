@@ -40,3 +40,21 @@ music-genre-classifier/
 
 
 ```
+```
+music-genre-classifier
+├─ data
+│  ├─ processed
+│  └─ raw
+│     ├─ drum_bass
+│     ├─ dubstep
+│     ├─ house
+│     ├─ techno
+│     └─ trapEDM
+├─ models
+├─ public
+│  ├─ css
+│  └─ js
+├─ server
+└─ views
+
+```
