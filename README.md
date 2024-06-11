@@ -1,3 +1,3 @@
-# katecamp-coding-test-java
+# codingtest-solv-97
 
-> 카카오 테크 캠프 코딩테스트 대비용 레포지토리 for Java
+> 코딩테스트 대비 선별 97 문제 풀이 JS ver.
